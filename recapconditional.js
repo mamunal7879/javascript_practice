@@ -63,3 +63,11 @@ console.log(concatedarray);
 // join er bebohar
 const joinedArray = firstArray.join(' $ ');
 console.log(joinedArray);
+
+// position er bebohar
+const position = firstArray.indexOf(4);
+console.log(position);
+
+// arry kina ta check korar jonno
+
+console.log(Array.isArray(firstArray));
