@@ -1,18 +1,12 @@
 // /*
-//  *ternary operatior
-//  */
+
 // let price = 100;
 // let ledaderPrice = true;
 
 // price = ledaderPrice ? 0 : price + 50;
 // console.log(price);
 
-// // if (ledaderPrice + 0) {
-// //   console.log('No Payment');
-// // } else {
-// //   console.log(price + 30);
-// // }
-// // switch er bebohar
+//   console.log(price + 30);
 
 // let category = 'car';
 // let carType;
@@ -35,7 +29,7 @@
 // }
 // console.log(carType);
 
-let mark = 70;
+let mark = 80;
 let grade;
 switch (mark) {
   case 100:
@@ -44,7 +38,6 @@ switch (mark) {
   case 80:
     grade = 'A+';
     break;
-  case 70 > 100:
     grade = 'A-';
     break;
   default:
@@ -52,3 +45,21 @@ switch (mark) {
 }
 
 console.log(grade);
+/*  
+*include er bebohar
+
+*/
+const numbers = [11, 22, 33, 44, 55, 66, 77, 88, 99];
+const hasnumber = numbers.includes(55);
+console.log(hasnumber);
+
+// array concet korar jonno bebohar
+
+const firstArray = [1, 2, 3, 4, 5];
+const secondArray = [6, 7, 8, 9, 10];
+const concatedarray = firstArray.concat(secondArray);
+console.log(concatedarray);
+
+// join er bebohar
+const joinedArray = firstArray.join(' $ ');
+console.log(joinedArray);
